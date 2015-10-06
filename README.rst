@@ -20,8 +20,8 @@ The error-free (\*.ne) files have the following structure:
 
 - Av, XV, Gmag, Grvs : V-band extinction, V-band, G and Grvs apparent magnitudes. 
 - relerr: relative parallax error 
-- X,Y,Z,VX,VY,VZ : error-free cartesian galactocentric coordinates (kpc) and velocities (km/s)
-- par_mas,l_deg,b_deg,Rhel_kpc,mulst_mas,mub_mas,vrad : error-free heliocentric spherical coords (parallax in mas,l,b,heliocentric distance in kpc, proper motions in mas/yr, radial velocities in km/s)
+- X, Y, Z, VX, VY, VZ : error-free cartesian galactocentric coordinates (kpc) and velocities (km/s)
+- par_mas, l_deg, b_deg, Rhel_kpc, mulst_mas, mub_mas, vrad : error-free heliocentric spherical coords (parallax in mas,l and b in deg, heliocentric distance in kpc, proper motions in mas/yr, radial velocities in km/s)
 
 *Note*: in these files Gmag,Grvs,relerr are set to dummy values of 0.000.
 (note: mulst denotes the reduced proper motion in longitude, i.e. mulst=mul*cosb)
@@ -30,11 +30,11 @@ The error-convolved (\*.pe) files have the following structure:
 
 - Av, V, Gmag, Grvs : V-band extinction, V-band, G and Grvs apparent magnitudes
 - relerr: relative parallax error 
-- xX,xY,xZ,xVX,xVY,xVZ : error-free cartesian galactocentric coordinates (kpc) and velocities (km/s)
-- xpar_mas,xl_deg,xb_deg,xRhel_kpc,xmulcosb_masyr,xmub_masyr,xvrad : error-free heliocentric spherical coordinates (parallax in mas, l,b, heliocentric distance in kpc, proper motions in mas/yr, radial velocities in km/s)
-- gX,gY,gZ,gVX,gVY,gVZ : error-convolved cartesian galactocentric coordinates and velocities.
-- gpar_mas,gl_deg,gb_deg,gRhel_kpc,gmulcosb_masyr,gmub_masyr,xvrad : error-convolved heliocentric spherical coordinates
-- relerr_D,sig_mub,sig_vrad,VI,relerr_mub,relerr_vrad : relative distance error, proper motion error in mas/yr (std. dev.), radial velocity error in km/s (std. dev.), apparent V-I colour, relative proper motion error, relative radial velocity error
+- xX ,xY ,xZ ,xVX ,xVY, xVZ : error-free cartesian galactocentric coordinates (kpc) and velocities (km/s)
+- xpar_mas, xl_deg, xb_deg, xRhel_kpc, xmulcosb_masyr, xmub_masyr, xvrad : error-free heliocentric spherical coordinates (parallax in mas, l and b in deg, heliocentric distance in kpc, proper motions in mas/yr, radial velocities in km/s)
+- gX, gY, gZ, gVX, gVY, gVZ : error-convolved cartesian galactocentric coordinates and velocities.
+- gpar_mas, gl_deg, gb_deg, gRhel_kpc, gmulcosb_masyr, gmub_masyr, xvrad : error-convolved heliocentric spherical coordinates
+- relerr_D, sig_mub, sig_vrad, VI, relerr_mub, relerr_vrad : relative distance error, proper motion error in mas/yr (std. dev.), radial velocity error in km/s (std. dev.), apparent V-I colour, relative proper motion error, relative radial velocity error
 
 *Note*: This data is the same as in the Gas-Dynamical challenge in the `III Gaia Challenge Wiki <http://astrowiki.ph.surrey.ac.uk/dokuwiki/doku.php?id=tests:streams:challenges#gas-dynamical_challenge>` (\*.gerr.dat files), only the data here has been split into individual files according to the progenitor ID (IDstream). 
 
