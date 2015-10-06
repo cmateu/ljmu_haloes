@@ -36,7 +36,7 @@ The error-convolved (\*.pe) files have the following structure:
 - gpar_mas, gl_deg, gb_deg, gRhel_kpc, gmulcosb_masyr, gmub_masyr, xvrad : error-convolved heliocentric spherical coordinates
 - relerr_D, sig_mub, sig_vrad, VI, relerr_mub, relerr_vrad : relative distance error, proper motion error in mas/yr (std. dev.), radial velocity error in km/s (std. dev.), apparent V-I colour, relative proper motion error, relative radial velocity error
 
-*Note*: This data is the same as in the Gas-Dynamical challenge in the `III Gaia Challenge Wiki <http://astrowiki.ph.surrey.ac.uk/dokuwiki/doku.php?id=tests:streams:challenges#gas-dynamical_challenge>`__ (\*.gerr.dat files), only the data here has been split into individual files according to the progenitor ID (IDstream). 
+*Note*: This data is the same as in the `Gas-Dynamical challenge in the III Gaia Challenge Wiki <http://astrowiki.ph.surrey.ac.uk/dokuwiki/doku.php?id=tests:streams:challenges#gas-dynamical_challenge>`__ (\*.gerr.dat files), only the data here has been split into individual files according to the progenitor ID (IDstream). 
 
 For any questions please contact: Cecilia Mateu (cmateu at cida.gob.ve) or Andreea Font (A.S.Font at ljmu.ac.uk) 
 
